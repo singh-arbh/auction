@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Arbh_Auction::auctionsystem" title="Auction System" module="Arbh_Auction" sortOrder="51" resource="Arbh_Auction::auctionsystem" />
+        <add id="Arbh_Auction::manage" title="Manage Auction" module="Arbh_Auction" sortOrder="10" action="auctionsystem/products/index" resource="Arbh_Auction::manage" parent="Arbh_Auction::auctionsystem" />
+        <add id="Arbh_Auction::participantsmanage" title="Manage Participants" module="Arbh_Auction" sortOrder="100" action="auctionsystem/products/index" resource="Arbh_Auction::participantsmanage" parent="Arbh_Auction::auctionsystem" />
+    </menu>
+</config>
+
